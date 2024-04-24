@@ -1,3 +1,4 @@
+import { Header } from "@/components/Header/Header";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,6 +9,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <Header />
       <main>
         <h1 className="text-2xl font-bold text-white">
           Esse template foi assinado pelo DOGE
