@@ -11,14 +11,20 @@ export function Header() {
   return (
     <header
       className={tw("w-full py-5 fixed", {
-        "bg-gray-950/10 backdrop-blur-md": scrollY > 0,
+        "bg-gray-950/5 backdrop-blur-md": scrollY > 0,
       })}
     >
       <div className="mx-auto flex w-full max-w-[78.5rem] items-center justify-between px-5">
         <Logo />
 
-        <Button asChild className="border-primary" variant="outline">
-          <a href="#plans">Testar gratuitamente</a>
+        <Button asChild className="" size="sm">
+          <a
+            href="https://app.feedbacki.click"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Sign In
+          </a>
         </Button>
       </div>
     </header>
