@@ -6,7 +6,7 @@ import { HeroSection } from "@/sections/HeroSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Feedback | Collect feedback in a simplified way",
+  title: "Feedback | Collect feedback in a simplified way with our Widget",
   description:
     "Gain powerful insights with our personalized feedback. Drive your success with actionable, customer-driven data client.",
 };
