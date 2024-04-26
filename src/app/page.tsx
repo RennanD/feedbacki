@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { AboutWigetSection } from "@/sections/AboutWigetSection";
 import { BenefitsCard } from "@/sections/BenefitsSection";
 import { HeroSection } from "@/sections/HeroSection";
+import { PricingSection } from "@/sections/PricingSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ export default function Home() {
         <HeroSection />
         <AboutWigetSection />
         <BenefitsCard />
+        <PricingSection />
       </main>
       <Footer />
     </>
