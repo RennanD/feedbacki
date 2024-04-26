@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { AboutWigetSection } from "@/sections/AboutWigetSection";
 import { BenefitsCard } from "@/sections/BenefitsSection";
@@ -18,6 +19,7 @@ export default function Home() {
         <AboutWigetSection />
         <BenefitsCard />
       </main>
+      <Footer />
     </>
   );
 }
