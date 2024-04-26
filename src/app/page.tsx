@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { AboutWigetSection } from "@/sections/AboutWigetSection";
 import { HeroSection } from "@/sections/HeroSection";
 import { Metadata } from "next";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
+        <AboutWigetSection />
       </main>
     </>
   );
