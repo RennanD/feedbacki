@@ -17,13 +17,13 @@ const FREE_PLAN = [
 ];
 
 const PRO_PLAN = [
-  "2 personal workspace for free",
+  "2 personal workspaces",
   "5 projects per workspace",
   "Unlimited collected feedbacks per project",
 ];
 
 const BUSSINES_PLAN = [
-  "2 personal workspace for free",
+  "2 personal workspaces",
   "Unlimited projects per workspace",
   "Unlimited collected feedbacks per project",
 ];
