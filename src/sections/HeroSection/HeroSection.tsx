@@ -35,7 +35,7 @@ export function HeroSection() {
         </div>
 
         <div>
-          <Image alt="" height={500} src={heroImage} />
+          <Image alt="" height={500} loading="eager" src={heroImage} />
         </div>
       </div>
     </section>
