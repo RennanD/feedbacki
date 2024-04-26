@@ -1,5 +1,6 @@
 import { Header } from "@/components/Header";
 import { AboutWigetSection } from "@/sections/AboutWigetSection";
+import { BenefitsCard } from "@/sections/BenefitsSection";
 import { HeroSection } from "@/sections/HeroSection";
 import { Metadata } from "next";
 
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <AboutWigetSection />
+        <BenefitsCard />
       </main>
     </>
   );

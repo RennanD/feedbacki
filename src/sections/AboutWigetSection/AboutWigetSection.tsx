@@ -42,7 +42,7 @@ export function AboutWigetSection() {
     <section className="bg-muted py-20" id="about">
       <div className="mx-auto flex w-full max-w-[78.5rem] flex-col gap-10 px-5 lg:flex-row">
         <div className="flex-1 space-y-10">
-          <div className="space-y-4 text-center lg:text-start">
+          <div className="space-y-4">
             <h2 className="text-xl font-medium lg:text-4xl">Meet the widget</h2>
             <p className="max-w-lg lg:text-lg">
               Exprore our Feedback Widget - Empowering you to gather valuable

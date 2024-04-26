@@ -11,7 +11,7 @@ export function Header() {
   return (
     <header
       className={tw("w-full py-5 z-50 fixed", {
-        "bg-gray-950/5 backdrop-blur-md": scrollY > 0,
+        "bg-white backdrop-blur-md": scrollY > 0,
       })}
     >
       <div className="mx-auto flex w-full max-w-[78.5rem] items-center justify-between px-5">
