@@ -19,7 +19,7 @@ export function HeroSection() {
           </p>
           <div className="flex flex-col gap-4 lg:flex-row">
             <Button asChild className="w-full lg:w-fit">
-              <a href="#plans">Try For Free</a>
+              <a href="#pricing">Try For Free</a>
             </Button>
             <Button
               asChild

@@ -8,12 +8,14 @@ export function Footer() {
         <Logo />
 
         <p className="text-xs lg:text-sm">
-          Delevoped by{" "}
+          Developed by{" "}
           <a
             className="text-primary hover:underline"
             href="https://github.com/rennand"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            Rennan Oliveira 💜
+            Rennan Oliveira ❤️
           </a>
         </p>
 

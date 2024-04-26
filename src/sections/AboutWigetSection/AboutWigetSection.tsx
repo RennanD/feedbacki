@@ -60,9 +60,9 @@ export function AboutWigetSection() {
               Integrate our feedback simply into your ReactJs applications.{" "}
               <Link
                 className="text-primary transition-all hover:underline"
-                href="/docs"
+                href="#pricing"
               >
-                See full documentation.
+                Get our widget.
               </Link>
             </p>
 

@@ -6,8 +6,9 @@ import { HeroSection } from "@/sections/HeroSection";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home",
-  description: "Descrição da Home",
+  title: "Feedback | Collect feedback in a simplified way",
+  description:
+    "Gain powerful insights with our personalized feedback. Drive your success with actionable, customer-driven data client.",
 };
 
 export default function Home() {
