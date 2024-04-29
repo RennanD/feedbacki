@@ -42,8 +42,8 @@ importers:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
       react-feedbacki:
-        specifier: 0.1.7
-        version: 0.1.7(@types/react-dom@18.2.6)(@types/react@18.2.13)
+        specifier: 0.1.10
+        version: 0.1.10(@types/react-dom@18.2.6)(@types/react@18.2.13)
       react-markdown:
         specifier: 9.0.1
         version: 9.0.1(@types/react@18.2.13)(react@18.2.0)
@@ -2391,8 +2391,8 @@ packages:
     peerDependencies:
       react: ^18.2.0
 
-  react-feedbacki@0.1.7:
-    resolution: {integrity: sha512-p7o1GquzDGHnMfuHqCRf972KkbnkWo66p3mgJIy8lfN99qH7SSni1TXaMOwfDZ1eQ7U62cujzDYYK+q7zufXUQ==}
+  react-feedbacki@0.1.10:
+    resolution: {integrity: sha512-YaLFr/ymlEbiZHYcbAfZyFsVmTXnVCROLMBz8rhASdjJoceGQera/dr2vjd+Nz0WA8zWZy0dRK67h6vHPksALw==}
 
   react-hook-form@7.51.3:
     resolution: {integrity: sha512-cvJ/wbHdhYx8aviSWh28w9ImjmVsb5Y05n1+FW786vEZQJV5STNM0pW6ujS+oiBecb0ARBxJFyAnXj9+GHXACQ==}
@@ -5637,7 +5637,7 @@ snapshots:
       react: 18.2.0
       scheduler: 0.23.0
 
-  react-feedbacki@0.1.7(@types/react-dom@18.2.6)(@types/react@18.2.13):
+  react-feedbacki@0.1.10(@types/react-dom@18.2.6)(@types/react@18.2.13):
     dependencies:
       '@hookform/resolvers': 3.3.4(react-hook-form@7.51.3(react@18.2.0))
       '@radix-ui/react-popover': 1.0.7(@types/react-dom@18.2.6)(@types/react@18.2.13)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
