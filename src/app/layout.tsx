@@ -1,3 +1,4 @@
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import "./globals.css";
 
 import { Plus_Jakarta_Sans, Martian_Mono, Inter } from "next/font/google";
@@ -28,9 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${plusJakarta.variable} ${martianMono.variable} ${inter.variable} font-sans`}
+        className={`relative ${plusJakarta.variable} ${martianMono.variable} ${inter.variable} font-sans`}
       >
         {children}
+        <FeedbackWidget />
       </body>
     </html>
   );

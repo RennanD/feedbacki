@@ -12,18 +12,21 @@ import { CheckCircle2 } from "lucide-react";
 
 const FREE_PLAN = [
   "1 personal workspace for free",
+  "1 member per workspace (owner only)",
   "1 project per workspace",
   "100 free collected feedbacks per project",
 ];
 
 const PRO_PLAN = [
   "2 personal workspaces",
+  "10 members per workspace",
   "5 projects per workspace",
   "Unlimited collected feedbacks per project",
 ];
 
 const BUSSINES_PLAN = [
   "2 personal workspaces",
+  "100 merbers per workspace",
   "Unlimited projects per workspace",
   "Unlimited collected feedbacks per project",
 ];
