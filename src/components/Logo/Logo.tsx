@@ -3,7 +3,7 @@ export function Logo() {
   return (
     <div className="flex items-center gap-2">
       <svg
-        className="lucide lucide-message-square-heart h-6 w-6 text-rose-500"
+        className="lucide lucide-message-square-heart h-6 w-6 text-primary"
         fill="none"
         height="24"
         stroke="currentColor"

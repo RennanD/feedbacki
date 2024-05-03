@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 
-import heroImage from "@/assets/images/hero-image.png";
+import heroImage from "@/assets/svg/hero-image.svg";
 
 export function HeroSection() {
   return (

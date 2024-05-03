@@ -121,7 +121,7 @@ export function PricingSection() {
 
           <Card>
             <CardHeader>
-              <CardTitle className="text-indigo-700">Business</CardTitle>
+              <CardTitle className="text-violet-800">Business</CardTitle>
               <CardDescription>
                 For larger teams with increased usage
               </CardDescription>
@@ -134,7 +134,7 @@ export function PricingSection() {
 
               <Button
                 asChild
-                className="w-full bg-indigo-700 hover:bg-indigo-700/90"
+                className="w-full bg-violet-800 hover:bg-violet-800/90"
               >
                 <a
                   href="https://app.feedback.click/plans/businnes"
@@ -151,7 +151,7 @@ export function PricingSection() {
                 {BUSSINES_PLAN.map((item, index) => (
                   <li className="flex items-center gap-2" key={index}>
                     <div className="h-5 w-5">
-                      <CheckCircle2 className="h-5 w-5 text-indigo-700" />
+                      <CheckCircle2 className="h-5 w-5 text-violet-800" />
                     </div>
                     <span>{item}</span>
                   </li>
