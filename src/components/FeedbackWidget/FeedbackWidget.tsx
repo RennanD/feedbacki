@@ -6,7 +6,7 @@ import { FeedbackiWidget } from "react-feedbacki";
 export function FeedbackWidget() {
   return (
     <FeedbackiWidget
-      projectId="52247a83-eb4c-4bc2-af10-8467c836e861"
+      projectId="99f35c27-602d-4423-beed-87c571255718"
       side="top"
     >
       <button className="fixed bottom-5 right-5 flex h-12 w-12 items-center justify-center rounded-full bg-primary">
