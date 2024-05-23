@@ -52,7 +52,7 @@ export function PricingSection() {
             <CardContent className="space-y-4">
               <div className="flex flex-col gap-2">
                 <strong className="text-5xl">
-                  $0 <span className="text-3xl">/workspace</span>
+                  $0 <span className="text-xl">/ workspace</span>
                 </strong>
                 <p>Free Forever</p>
               </div>
@@ -96,7 +96,7 @@ export function PricingSection() {
             <CardContent className="space-y-4">
               <div className="flex flex-col gap-2">
                 <strong className="text-5xl">
-                  $9 <span className="text-3xl">/workspace</span>
+                  $9 <span className="text-xl">/ workspace</span>
                 </strong>
                 <p>Billed monthly</p>
               </div>
