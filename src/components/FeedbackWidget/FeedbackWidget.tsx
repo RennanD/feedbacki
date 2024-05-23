@@ -1,17 +1,35 @@
 "use client";
 
-import { MessageCircle } from "lucide-react";
+import { Smile, X } from "lucide-react";
+import { useState } from "react";
 import { FeedbackiWidget } from "react-feedbacki";
 
 export function FeedbackWidget() {
+  const [hideFeedackWidget, setHideFeedbackWidget] = useState(false);
+
+  if (hideFeedackWidget) return null;
+
   return (
-    <FeedbackiWidget
-      projectId="99f35c27-602d-4423-beed-87c571255718"
-      side="top"
-    >
-      <button className="fixed bottom-5 right-5 flex h-12 w-12 items-center justify-center rounded-full bg-primary">
-        <MessageCircle className="h-5 w-5 text-white" />
+    <div className="fixed right-0 top-1/2 z-40 flex -translate-y-1/2 flex-col items-center gap-2">
+      <button onClick={() => setHideFeedbackWidget(true)}>
+        <X className="h-4 w-4 text-gray-400 lg:h-6 lg:w-6" />
       </button>
-    </FeedbackiWidget>
+
+      <FeedbackiWidget
+        className="mr-4"
+        projectId="99f35c27-602d-4423-beed-87c571255718"
+        side="bottom"
+      >
+        <button className="flex flex-col items-center justify-center gap-2 rounded-l-[10px] bg-primary px-2 py-4">
+          <p
+            className="-rotate-180 text-xs font-medium text-white lg:text-sm"
+            style={{ writingMode: "vertical-rl" }}
+          >
+            Feedback
+          </p>
+          <Smile className="h-3.5 w-3.5 text-white lg:h-6 lg:w-6" />
+        </button>
+      </FeedbackiWidget>
+    </div>
   );
 }
