@@ -34,7 +34,7 @@ const PRO_PLAN = [
 export function PricingSection() {
   return (
     <section className="w-full bg-muted py-20" id="pricing">
-      <div className="mx-auto flex w-full max-w-[78.5rem] justify-between gap-10 px-5">
+      <div className="mx-auto flex w-full max-w-[78.5rem] flex-col justify-between gap-10 px-5 lg:flex-row">
         <div className="flex flex-col gap-2">
           <h2 className="text-xl font-medium lg:text-4xl">Pricing</h2>
           <p className="max-w-[458px] lg:text-lg">
