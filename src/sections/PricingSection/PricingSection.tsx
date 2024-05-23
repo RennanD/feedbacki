@@ -11,36 +11,39 @@ import {
 import { CheckCircle2 } from "lucide-react";
 
 const FREE_PLAN = [
-  "1 personal workspace for free",
+  // "1 personal workspace for free",
   "1 member per workspace (owner only)",
   "1 project per workspace",
   "100 free collected feedbacks per project",
 ];
 
 const PRO_PLAN = [
-  "2 personal workspaces",
-  "10 members per workspace",
-  "5 projects per workspace",
-  "Unlimited collected feedbacks per project",
-];
-
-const BUSSINES_PLAN = [
-  "2 personal workspaces",
+  // "2 personal workspaces",
   "100 merbers per workspace",
   "Unlimited projects per workspace",
   "Unlimited collected feedbacks per project",
 ];
 
+// const BUSSINES_PLAN = [
+//   "2 personal workspaces",
+//   "100 merbers per workspace",
+//   "Unlimited projects per workspace",
+//   "Unlimited collected feedbacks per project",
+// ];
+
 export function PricingSection() {
   return (
     <section className="w-full bg-muted py-20" id="pricing">
-      <div className="mx-auto w-full max-w-[78.5rem] space-y-16 px-5">
-        <div className="flex w-full flex-col items-center gap-2">
+      <div className="mx-auto flex w-full max-w-[78.5rem] justify-between gap-10 px-5">
+        <div className="flex flex-col gap-2">
           <h2 className="text-xl font-medium lg:text-4xl">Pricing</h2>
-          <p className="lg:text-lg">Choose the option that suits you 🙂</p>
+          <p className="max-w-[458px] lg:text-lg">
+            Our plans are based on workspaces. Choose the plan that best fits
+            your business 🙂
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           <Card>
             <CardHeader>
               <CardTitle>Free</CardTitle>
@@ -86,7 +89,7 @@ export function PricingSection() {
             </div>
             <CardHeader>
               <CardTitle className="text-primary">Pro</CardTitle>
-              <CardDescription>For startups & small businesses</CardDescription>
+              <CardDescription>For professional applications</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex flex-col gap-2">
@@ -119,7 +122,7 @@ export function PricingSection() {
             </CardFooter>
           </Card>
 
-          <Card>
+          {/* <Card>
             <CardHeader>
               <CardTitle className="text-violet-800">Business</CardTitle>
               <CardDescription>
@@ -158,7 +161,7 @@ export function PricingSection() {
                 ))}
               </ul>
             </CardFooter>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>
