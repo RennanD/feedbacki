@@ -14,7 +14,7 @@ const FREE_PLAN = [
   // "1 personal workspace for free",
   "1 member per workspace (owner only)",
   "1 project per workspace",
-  "100 free collected feedbacks per project",
+  "50 free collected feedbacks per project",
 ];
 
 const PRO_PLAN = [
