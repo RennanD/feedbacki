@@ -19,9 +19,9 @@ const FREE_PLAN = [
 
 const PRO_PLAN = [
   // "2 personal workspaces",
-  "100 merbers per workspace",
-  "Unlimited projects per workspace",
-  "Unlimited collected feedbacks per project",
+  "10 merbers per workspace",
+  "20 projects per workspace",
+  "10K collected feedbacks per project",
 ];
 
 // const BUSSINES_PLAN = [
@@ -51,7 +51,9 @@ export function PricingSection() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex flex-col gap-2">
-                <strong className="text-5xl">$0</strong>
+                <strong className="text-5xl">
+                  $0 <span className="text-3xl">/workspace</span>
+                </strong>
                 <p>Free Forever</p>
               </div>
 
@@ -93,7 +95,9 @@ export function PricingSection() {
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="flex flex-col gap-2">
-                <strong className="text-5xl">$9</strong>
+                <strong className="text-5xl">
+                  $9 <span className="text-3xl">/workspace</span>
+                </strong>
                 <p>Billed monthly</p>
               </div>
 
