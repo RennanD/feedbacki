@@ -9,16 +9,14 @@ import Link from "next/link";
 export function AboutWigetSection() {
   const reactCode = `
   ~~~tsx
-  import { FastFeedbackWidget } form 'react-feedbacki'
+  import { FeedbackiWidget } from "react-feedbacki";
   ...
   return (
-    <FastFeedbackWidget projectId="projectId">
+    <FeedbackiWidget projectId="projectId">
       <button>
-        <p>
-          Feedback
-        </p>
+        Feedback
       </button>
-    </FastFeedbackWidget>
+    </FeedbackiWidget>
   );
   ~~~
   `;
